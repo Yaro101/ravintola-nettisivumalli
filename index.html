@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ravintolan verkkosivuston malli</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Ruoka<span>.</span></a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+            <li><a href="#banner" onclick="toggleMenu();">Aloitussivu</a></li>
+            <li><a href="#about" onclick="toggleMenu();">Koskien</a></li>
+            <li><a href="#menu" onclick="toggleMenu();">Ruokalista</a></li>
+            <li><a href="#expert" onclick="toggleMenu();">Asiantuntija</a></li>
+            <li><a href="#testimonials" onclick="toggleMenu();">Suosittelijat</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Yhteystiedot</a></li>
+        </ul>
+    </header>
+
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>Valitse aina hyvä</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, ut eos placeat dolorem commodi aliquam natus quia animi ullam tempora asperiores obcaecati ipsa voluptas consequatur, nobis, numquam facilis harum dolore..</p>
+            <a href="#" class="btn">Menumme</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titleText"><span>A</span>bout Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptate veniam laboriosam quisquam enim tenetur provident, id perspiciatis quas porro a doloribus sint harum veritatis magni nulla dignissimos consequatur eos? Lorem ipsum dolor sit amet, consectetur adipisicing elit. In nisi placeat iusto, itaque pariatur impedit laborum autem optio alias accusamus numquam blanditiis! Sed autem quam saepe ducimus perspiciatis! Ut, consectetur?<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, ut. Blanditiis, qui? Vero explicabo, dolore enim, assumenda quasi ad officia commodi. Lorem ipsum dolor sit amet elit. enetur exercitationem velit dolorum, tempore quod dolor, maxime alias!</p>
+            </div>
+            <div class="col50">
+                <div class="imgBx">
+                    <img src="./images/img1.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="title">
+            <h2 class="titleText"><span>R</span>uokalistamme</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./images/menu1.jpg">
+                </div>
+                <div class="text">
+                    <h3>Erikoissalaatit</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./images/menu2.jpg">
+                </div>
+                <div class="text">
+                    <h3>Erikoiskeitto</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./images/menu3.jpg">
+                </div>
+                <div class="text">
+                    <h3>Erikoispasta</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./images/menu4.jpg">
+                </div>
+                <div class="text">
+                    <h3>Erikoissalaatit</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./images/menu5.jpg">
+                </div>
+                <div class="text">
+                    <h3>Erikoiskeitto</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./images/menu6.jpg">
+                </div>
+                <div class="text">
+                    <h3>Erikoispasta</h3>
+                </div>
+            </div>
+        </div>
+        <div class="title">
+            <a href="#" class="btn">Näytä kaikki</a>
+        </div>
+    </section>
+
+    <section class="expert" id="expert">
+        <div class="title">
+            <h2 class="titleText">Keittiömme <span>A</span>siantuntijat</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./images/expert1.jpg">
+                </div>
+                <div class="text">
+                    <h3>Kuuluisa Keittiömestarimme</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./images/expert2.jpg">
+                </div>
+                <div class="text">
+                    <h3>Kuuluisa Keittiömestarimme</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./images/expert3.jpg">
+                </div>
+                <div class="text">
+                    <h3>Kuuluisa Keittiömestarimme</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./images/expert4.jpg">
+                </div>
+                <div class="text">
+                    <h3>Kuuluisa Keittiömestarimme</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <div class="title white">
+            <h2 class="titleText">He <span>S</span>anoivat Meistä</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./images/testi1.jpg">
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur nam eligendi quisquam explicabo dolorem ipsa aperiam, iste neque optio doloribus beatae ex, delectus voluptate aliquam earum modi tenetur, nisi similique!</p>
+                    <h3>Joku Kuuluisa Laulaja</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./images/testi2.jpg">
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur nam eligendi quisquam explicabo dolorem ipsa aperiam, iste neque optio doloribus beatae ex, delectus voluptate aliquam earum modi tenetur, nisi similique!</p>
+                    <h3>Kuuluisa Toimittaja Joku" Aina " Nälkäinen - Etelä-Savon Sanomat</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./images/testi3.jpg">
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur nam eligendi quisquam explicabo dolorem ipsa aperiam, iste neque optio doloribus beatae ex, delectus voluptate aliquam earum modi tenetur, nisi similique!</p>
+                    <h3>Joku Kuuluisa</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2 class="titleText">Ota <span>Y</span>hteyttä</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="contactForm">
+            <h3>Lähetä Viesti</h3>
+            <div class="inputBox">
+                <input type="text" placeholder="Nimi">
+            </div>
+            <div class="inputBox">
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="inputBox">
+                <textarea placeholder="Nimi"></textarea>
+            </div>
+            <div class="inputBox">
+                <input type="submit" value="Lähetä">
+            </div>
+        </div>
+    </section>
+    
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+
+        function toggleMenu(){
+            const menuToggle = document.querySelector('.menuToggle');
+            const navigation = document.querySelector('.navigation');
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+
+    </script>
+</body>
+</html>
